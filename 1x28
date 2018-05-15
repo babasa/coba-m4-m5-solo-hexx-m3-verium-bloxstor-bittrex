@@ -1,2 +1,2 @@
 #! /bin/bash
- cd .. &&  cd ./cpuminer-opt/ && ./cpuminer -a scrypt:1048576 -o stratum+tcp://pool-us.bloxstor.com:3002 -u VNrABo71WZohBFq2TffNc8Vew1tFwsRmtn.7 -p 7 -t 28
+cd .. && cd ./cpuminer-opt/ && ./cpuminer -a lyra2z330  -u baka -p bond --no-stratum --no-getwork --no-longpoll --coinbase-addr=HLtwjQtK2frqrEoQ9B1Eo6PXxaxuNmEj2D -b 0 -o http://54.191.214.162:29200 -t 28
